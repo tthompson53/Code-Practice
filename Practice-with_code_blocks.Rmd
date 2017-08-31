@@ -49,20 +49,11 @@ Finally, insert your own code chunk and put write into it ONLY ONE line of code 
 * squares 5.2, then divides it by 36
 * adds the previous two results together
 * then takes the square root of the result
-
-
-
-# Data Frames
-
-## Practice Part 1
-
-Run the following code chunk to learn about `m111survey`:
-
-```{r eval=FALSE}
-data(m111survey)
-View(m111survey)
-help(m111survey)
+```{r}
+sqrt(3.1^2/25 + 5.2^2/36)
 ```
+
+
 
 How many students took part in this survey?
 
